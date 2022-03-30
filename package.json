@@ -5,6 +5,7 @@
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
+    "postinstall": "electron-rebuild",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
@@ -75,6 +76,7 @@
     "@vercel/webpack-asset-relocator-loader": "^1.7.2",
     "css-loader": "^6.0.0",
     "electron": "18.0.0",
+    "electron-rebuild": "^3.2.7",
     "eslint": "^7.6.0",
     "eslint-plugin-import": "^2.20.0",
     "fork-ts-checker-webpack-plugin": "^6.0.1",
